@@ -7,6 +7,32 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
 
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+
+        <TextBox Margin="10"
+                 Grid.ColumnSpan="3"/>
+
+        <Button Margin="10"
+                Grid.Row="1"
+                Content="Valera"/>
+        
+        <Button Margin="10"
+                 Grid.Column="1"
+                Grid.Row="1"
+                Content="Danil"/>
+        
+        <Button Margin="10"
+                 Grid.Column="2"
+                Grid.Row="1"
+                Content="Egor"/>
     </Grid>
 </Window>

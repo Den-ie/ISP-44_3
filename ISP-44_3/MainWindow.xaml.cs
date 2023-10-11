@@ -24,5 +24,20 @@ namespace ISP_44_3
         {
             InitializeComponent();
         }
+
+        private void Valer(object sender, RoutedEventArgs e)
+        {
+            text.Text = Convert.ToString(Antona.CalculateExpression());
+        }
+
+        private void Danill(object sender, RoutedEventArgs e)
+        {
+            text.Text = Convert.ToString(ClassKosov.Method());
+        }
+
+        public void Alnxx(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

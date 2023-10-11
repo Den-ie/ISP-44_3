@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace ISP_44_3
 {
-    internal class Sum
+    public static class Sum
     {
-      public int FindSum()
+      public static int FindSum()
         {
             int a = 2;
             int b = 3;

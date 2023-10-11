@@ -8,7 +8,7 @@ namespace ISP_44_3
 {
     internal class ClassKosov
     {
-        public int Method()
+        public static int Method()
         {
             return -100;
         }

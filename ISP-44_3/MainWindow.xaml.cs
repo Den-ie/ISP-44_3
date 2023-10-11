@@ -37,7 +37,7 @@ namespace ISP_44_3
 
         public void Alnxx(object sender, RoutedEventArgs e)
         {
-
+            text.Text = Convert.ToString(Sum.FindSum());
         }
     }
 }
